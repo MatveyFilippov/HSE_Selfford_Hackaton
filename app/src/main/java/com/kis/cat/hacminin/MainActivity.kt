@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         super.onCreate(savedInstanceState)
 
         Handler(Looper.getMainLooper()).postDelayed(Runnable {
-            startActivity(Intent(this, BotomActivity::class.java))
+                startActivity(Intent(this, BotomActivity::class.java))
         }, 3000)
     }
 }
