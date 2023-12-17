@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+ <link rel="stylesheet" href="as.css">
     <meta charset="utf-8">
     <title></title>
+    <script type="text/javascript">
+      $('table').DataTable();
+
+    </script>
   </head>
+
   <body>
-    <link rel="stylesheet" href="as.css">
     <div class="rf-map">
         <div class="district"><b></b><span></span></div>
         <div class="close-district">&times;</div>
@@ -744,5 +749,73 @@
         </svg>
         <div class="district-links"></div>
     </div>
+  <table class="center">
+    <style media="screen">
+    table.center {
+         margin-left: auto;
+         margin-right: auto;
+     }
+    </style>
+  <thead>
+    <tr>
+      <th>ID
+      <th>Город получятеля
+      <th>Адрес получателя
+      <th>Имя получятеля
+      <th>Семья получателя
+      <th>Ф.И. отправителя
+      <th> Дата
+  </thead>
+  <tbody>
+    <tr>
+      <td>1
+      <td>Ленск
+      <td>Ул.Ленина дом 38
+      <td>Хильда
+      <td>Умова
+      <td>Олег Фаров
+      <td>20.09.2003
+    <tr>
+      <td>2
+      <td>Саратов
+      <td>Ул.Коментернов дом 20
+      <td>Рая
+      <td>Кузьмина
+      <td>Надя Наумова
+      <td>05.02.1989
+    <tr class="disabled">
+      <td>3
+      <td>Ухта
+      <td>Ул.Кирпичная строение 8
+      <td>Коля
+      <td>Редькин
+      <td>Филип Кондрашов
+      <td>08.12.2015
+    <tr>
+
+
+
+  </tbody>
+</table>
+
+
+<section>
+  <style media="screen">
+
+  range.center {
+       margin-left: auto;
+       margin-right: auto;
+   }
+
+  </style>
+  <div>
+    <br> <h1 style="color:  #E2B842;">Год</h1>
+
+    <input type="range" />
+
+  </div>
+
+</section>
+
   </body>
 </html>
